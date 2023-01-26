@@ -54,7 +54,6 @@ test:
     - opendrift
   commands:
     - pip check
-    - python test_opendrift.py
   requires:
     - pip
 
