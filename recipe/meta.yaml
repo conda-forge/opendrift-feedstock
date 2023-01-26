@@ -46,7 +46,7 @@ requirements:
     - dask-core >=2022.9.0,<2023.0.0
     - gdal >=3.3.1,<4.0.0
     - pykdtree
-    - xhistorgram >=0.3
+    - xhistogram >=0.3
     - trajan >=0.1
 
 test:
