@@ -1,11 +1,11 @@
-About opendrift
-===============
+About opendrift-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opendrift-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/opendrift/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opendrift-feedstock/blob/master/LICENSE.txt)
 
 Summary: OpenDrift - a framework for ocean trajectory modeling
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17384&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/opendrift-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17384&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/opendrift-feedstock?branchName=main">
       </a>
     </td>
   </tr>
