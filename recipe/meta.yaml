@@ -1,5 +1,5 @@
 {% set name = "opendrift" %}
-{% set version = "1.10.7" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: 0a59ec3bc49d15d88ab930960c08ea9570f89fee854de9a324872e7b1a94c556
+  sha256: 22698a3804acbd0fd9650f43f363a977eea5322b5632bd2f7d9201fc525eb14e
 
 build:
   noarch: python
@@ -48,6 +48,7 @@ requirements:
     - pykdtree
     - xhistogram >=0.3
     - trajan >=0.1
+    - adios_db >=1.1
 
 test:
   imports:
