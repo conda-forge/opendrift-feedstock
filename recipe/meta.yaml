@@ -48,7 +48,8 @@ requirements:
     - pykdtree
     - xhistogram >=0.3
     - trajan >=0.1
-    - adios_db >=1.1
+    - adios_db <1.2
+    - copernicusmarine
 
 test:
   imports:
