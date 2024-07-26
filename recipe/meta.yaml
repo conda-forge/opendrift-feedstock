@@ -1,5 +1,5 @@
 {% set name = "opendrift" %}
-{% set version = "1.11.12" %}
+{% set version = "1.11.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: f9bce74927bda52b34b460ae1d1d7263da3d52348430cf02b3ed3cd58cc34a78
+  sha256: 3dc0d9e43bf741dfddaea936b424a4031d6d7e50931c3dc28bae0db76f07bc4c
 
 build:
   noarch: python
@@ -29,7 +29,7 @@ requirements:
   run:
     - python >=3.8,<3.12
     - cartopy >=0.20
-    - cmocean >=2.0,<3.0
+    - cmocean >=3.1.3
     - coloredlogs >=15.0.1,<16.0.0
     - geojson >=2.5.0,<3.0.0
     - matplotlib-base >=3.5
@@ -47,7 +47,7 @@ requirements:
     - gdal >=3.3.1,<4.0.0
     - pykdtree
     - xhistogram >=0.3
-    - trajan >=0.1
+    - trajan >=0.6
     - adios_db <1.2
     - copernicusmarine
 
