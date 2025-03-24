@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - hodograph = opendrift.scripts.hodograph:main
     - readerinfo = opendrift.scripts.readerinfo:main
@@ -50,6 +50,7 @@ requirements:
     - trajan >=0.6
     - adios_db >1.2
     - copernicusmarine
+    - bottleneck
 
 test:
   imports:
