@@ -1,5 +1,5 @@
 {% set name = "opendrift" %}
-{% set version = "1.13.1" %}
+{% set version = "1.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: f6a7d808f467e19b4fd36be44856476e1292bde8f734e02e38f87f02b0fd322a
+  sha256: d57837e79ee354c67132b2f959b449faf4f2e09386051dea19f7d7fd8ddbd639
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
   entry_points:
     - hodograph = opendrift.scripts.hodograph:main
     - readerinfo = opendrift.scripts.readerinfo:main
