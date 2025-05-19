@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: d57837e79ee354c67132b2f959b449faf4f2e09386051dea19f7d7fd8ddbd639
+  sha256: e0d871175fb4d1f9c9562ca06dbe7b2a0553731b6c000a3f972490db4fdc3811
 
 build:
   noarch: python
