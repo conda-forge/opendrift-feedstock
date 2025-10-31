@@ -1,5 +1,5 @@
 {% set name = "opendrift" %}
-{% set version = "1.14.5" %}
+{% set version = "1.14.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: e5467d9d049a60ddea6c2a8e0e85860108241626d1f0ce750d5101283fc17dda
+  sha256: 19b667a12c227078a2f445664466ddf52b78ac6f5e1e043f75907963d06f729b
 
 build:
   noarch: python
