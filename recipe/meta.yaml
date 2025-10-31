@@ -1,5 +1,5 @@
 {% set name = "opendrift" %}
-{% set version = "1.14.4" %}
+{% set version = "1.14.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opendrift-{{ version }}.tar.gz
-  sha256: bd6d302220c0f4ff369a7f8df8cbf8079869367e9d5278b0f323101392f6e2a2
+  sha256: e5467d9d049a60ddea6c2a8e0e85860108241626d1f0ce750d5101283fc17dda
 
 build:
   noarch: python
@@ -52,6 +52,8 @@ requirements:
     - adios_db >1.2
     - copernicusmarine >=2.0
     - bottleneck
+    - ffmpeg
+    - python-dotenv
 
 test:
   imports:
