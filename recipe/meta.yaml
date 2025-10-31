@@ -52,6 +52,8 @@ requirements:
     - adios_db >1.2
     - copernicusmarine >=2.0
     - bottleneck
+    - ffmpeg
+    - python-dotenv
 
 test:
   imports:
