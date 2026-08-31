@@ -28,29 +28,29 @@ requirements:
   run:
     - python >={{ python_min }}
     - cartopy >=0.20
-    - cmocean >=3.1.3
-    - coloredlogs >=15.0.1
-    - geojson >=2.5.0
+    - cmocean >=3
+    - coloredlogs >=15
+    - geojson >=2
     - geopandas >=0.14
     - matplotlib-base >=3.5
-    - nc-time-axis >=1.4.1
-    - netcdf4 >=1.6.1
+    - nc-time-axis >=1.4
+    - netcdf4 >=1.6
     - numpy >=1.23
     - pynucos >=3
     - pyproj >=2.3
     - proj <9.8
-    - requests >=2.28.1
-    - roaring-landmask >=0.7.0
+    - requests >=2
+    - roaring-landmask >=0.11
     - scipy >=1.9
-    - utm >=0.7.0
-    - xarray >=2022.6.0
-    - dask-core >=2022.9.0
-    - gdal >=3.3.1
+    - utm >=0.7
+    - xarray >=2025
+    - dask-core >=2025
+    - gdal >=3
     - pykdtree
     - xhistogram >=0.3
-    - trajan >=0.6
+    - trajan >=0.12
     - adios_db >1.2
-    - copernicusmarine >=2.0
+    - copernicusmarine >=2
     - bottleneck
     - ffmpeg
     - python-dotenv
