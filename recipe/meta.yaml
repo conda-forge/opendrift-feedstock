@@ -26,6 +26,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
+    - setuptools_scm
   run:
     - python >={{ python_min }}
     - cartopy >=0.20
